@@ -8,3 +8,151 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  margin: auto;
+  background-image: url(../img/bg_header-100.jpg) ;
+  background-size: cover;
+  padding: 30px;
+  color: #7DB96F;
+  background-color: #7DB96F;
+
+}
+hr{
+  background-color: #7DB96F;
+  height: 10px;
+  margin-bottom: -3px;
+}
+.box-title{
+  background-color: #ffffffcd ;
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+}
+.slogan{
+  font-family:'Quattrocento', serif;
+}
+.cta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color:#7DB96F ;
+  font-family:'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.cta-light {
+  display: flex;
+  background-color: #FFFFFF;
+  color: #7DB96F;
+}
+
+main{
+  margin: auto;
+  background-color: #7DB96F;
+}
+h2{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bolder;
+}
+p{
+  font-family: 'Quattrocento', serif;
+}
+strong{
+  color: #7DB96F;
+}
+.section-light{
+  background-color: #FFFFFF;
+  padding: 50px;
+  text-align: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 30px 20px;
+  margin: 30px;
+  border-radius: 20px;
+
+}
+h3{
+  font-family: 'Sriracha', cursive;
+}
+.section-green h2{
+  text-align: center;
+  color: #FFFFFF;
+}
+.banana-card{
+background-color: #FCF7D6;
+}
+.banana-card p{
+  color: #00000081;
+}
+.kiwi-card{
+background-color: #D0F1AE;
+}
+.kiwi-card p{
+  color: #00000081;;
+}
+.coffe-card{
+background-color: #CDC4B0;
+}
+.coffe-card p{
+  color: #00000081;
+}
+.strawberry-card{
+background-color: #E2A2B1;
+}
+.strawberry-card p{
+  color: #00000081;
+}
+.savoir-plus{
+  color: #000000;
+  font-family:'Maven Pro', sans-serif;
+  font-weight: bolder;
+}
+.card img{
+width: 20%;
+margin-left: 200px;
+}
+.card p{
+  margin-top: -15px;
+}
+.contact{
+  color: #7DB96F;
+  padding-bottom: 15px;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  background-color: #7DB96F;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  border-radius: 15px;
+  align-items: center;
+}
+.social .email{
+  display: flex;
+
+}
+.social .facebook{
+  display: flex;
+}
+.social .instagram{
+  display: flex;
+}
+
+footer{
+  color: #7DB96F;
+}
+.copyright{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: small;
+ 
+}
